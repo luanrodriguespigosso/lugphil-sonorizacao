@@ -2,3 +2,141 @@
     margin:0;
     padding:0;
 }
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+/*  NAVIGATION    */
+.nav-dark {
+    background-color: rgb(0, 0, 0);
+}
+.navbar .navbar-brand {
+    color: #FFF;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    color:#FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    display:flex;
+    align-items:center;
+    border-bottom:5px solid #000;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover,
+.collapse .navbar-nav .nav-item.active .nav-link {
+    color: #B28756;
+    border-bottom:5px solid #B28756;
+}
+/*  HOME    */
+.banner {
+    height: 100vh;
+    background-color: #333;
+    background-image: url('/assets/image/banner/banner-home.png');
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+.banner .banner-opacity {
+    width:100vw;
+    height:100%;
+    display:inline-block;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+/*  DEFAULT     */
+.default {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.light {
+    background-color:#F7F7F7;
+}
+.light .default .section-title {
+    color:#B28756;
+}
+.light .default .section-body {
+    color: #333;
+}
+.dark {
+    background-color:#000;
+}
+.dark .default .section-title {
+    color:#B28756;
+}
+.dark .default .section-body {
+    color: #FFF;
+}
+.default .section-title,
+.default .section-desc {
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title {
+    font-size:20px;
+}
+.default .section-desc {
+    font-size:12px;
+    color:#CCC;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+.button {
+    display:inline-block;
+    background-color:#B28756;
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight:600;
+    padding:10px 30px;
+    margin-top:30px;
+    border-radius:20px;
+}
+/*  ABOUT   */
+.section-aboutus {
+    display:flex;
+}
+.section-aboutus--left {
+    flex:1;
+}
+.section-aboutus--left p {
+    font-size:14px;
+    line-height:25px;
+}
+.section-aboutus--left a {
+    text-decoration: none;
+    color:#FFF;
+}
+.section-aboutus--right {
+    width:520px;
+    text-align:center;
+}
+.section-aboutus--right img {
+    width:480px;
+    box-shadow:0px 5px 10px #333;
+}
+/*  SERVICES    */
+.section-services {
+    display:flex;
+}
+.section-service {
+    flex:1;
+    text-align:center;
+    border-right:1px solid #333;
+    padding:15px;
+}
+.section-service:first-child {
+    border-left:1px solid #333;
+}
+.section-service h4 {
+    margin-top:20px;
+    text-transform: uppercase;
+    font-size:18px;
+}
+.section-service p {
+    margin-top:10px;
+    font-size:13px;
+    color:#999;
+}
