@@ -144,3 +144,15 @@ body {
     width: 59px;
     height: 58px;
 }
+/*  MEDIA 576PC */
+@media (min-width: 576px) {
+    .section-aboutus--left p {
+        font-size:14px;
+        line-height:25px;
+    }
+    .section-aboutus--left a {
+        text-decoration: none;
+        color:#FFF;
+        justify-content: center;
+    }
+}
