@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <script src="https://kit.fontawesome.com/5772977e9f.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/index.js"></script>
 
     <title>Lugphil - Sonorização</title>
 </head>
@@ -32,10 +33,10 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sonorização</a>
+                            <a class="nav-link" href="#sonorizacao">Sonorização</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Iluminação</a>
@@ -61,13 +62,13 @@
         <section class="banner">
             <div class="banner-opacity"></div>
         </section>
-        <section class="light">
+        <section id="sobre" class="light">
             <div class="container default">
                 <div class="section-title">Sobre</div>
                 <div class="section-desc">Quem somos nós</div>
                 <div class="section-body">
-                    <div class="section-aboutus">
-                        <div class="section-aboutus--left">
+                    <div class="row section-aboutus">
+                        <div class="col-md-8 col-sm-12 section-aboutus--left">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat
                                 condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim
                                 eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet
@@ -75,46 +76,47 @@
                                 felis, tincidunt sed hendrerit finibus, malesuada eu urna. Sed rutrum sodales mi a
                                 varius.
                             </p>
-                            <br />
-                            <a href="" class="button">Learn More</a>
+                            <a class="col-5 col-sm-3 col-md-3 p-2 button text-center" href="">Learn More</a>
                         </div>
-                        <div class="section-aboutus--right">
-                            <img src="/assets/image/logo/logo-lugphil.jpeg" />
+                        <div class=" col-md-4 col-sm-12 section-aboutus--right">
+                            <img class="m-sm" src="/assets/image/logo/logo-lugphil.jpeg" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="dark">
+        <section id="sonorizacao" class="dark">
             <div class="container default">
                 <div class="section-title">Serviços</div>
                 <div class="section-desc">Serviços que oferecemos</div>
                 <div class="section-body">
                     <div class="section-services">
-                        <div class="section-service">
-                            <img src="assets/images/medalha.png" />
-                            <h4>Sonorização</h4>
-                            <p>Donec tincidunt cursus</p>
-                        </div>
-                        <div class="section-service">
-                            <img src="assets/images/estrela.png" />
-                            <h4>Iluminação</h4>
-                            <p>Morbi ex felis, tincidunt sed hendrerit</p>
-                        </div>
-                        <div class="section-service">
-                            <img src="assets/images/relogio.png" />
-                            <h4>Estruturas</h4>
-                            <p>Donec tincidunt cursus</p>
-                        </div>
-                        <div class="section-service">
-                            <img src="assets/images/balao.png" />
-                            <h4>Painel Led</h4>
-                            <p>Morbi ex felis, tincidunt sed</p>
-                        </div>
-                        <div class="section-service">
-                            <img src="assets/images/balao.png" />
-                            <h4>Geradores</h4>
-                            <p>Morbi ex felis, tincidunt sed</p>
+                        <div class="row">
+                            <div class="col-12 col-md section-service">
+                                <img src="/assets/image/icone-servicos/sonorizacao.png" />
+                                <h4>Sonorização</h4>
+                                <p>Donec tincidunt cursus</p>
+                            </div>
+                            <div class="col-12 col-md section-service">
+                                <img src="/assets/image/icone-servicos/illumination.png" />
+                                <h4>Iluminação</h4>
+                                <p>Morbi ex felis, tincidunt sed hendrerit</p>
+                            </div>
+                            <div class="col-12 col-md section-service">
+                                <img src="/assets/image/icone-servicos/estrutura-metalica.png" />
+                                <h4>Estruturas</h4>
+                                <p>Donec tincidunt cursus</p>
+                            </div>
+                            <div class="col-12 col-md section-service">
+                                <img src="/assets/image/icone-servicos/sonorizacao.png" />
+                                <h4>Painel Led</h4>
+                                <p>Morbi ex felis, tincidunt sed</p>
+                            </div>
+                            <div class="col-12 col-md section-service">
+                                <img src="/assets/image/icone-servicos/sonorizacao.png" />
+                                <h4>Geradores</h4>
+                                <p>Morbi ex felis, tincidunt sed</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -126,7 +128,6 @@
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
